@@ -1,4 +1,4 @@
-package iterador;
+package Interface;
 
 public interface Iterable {
 
