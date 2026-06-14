@@ -1,7 +1,6 @@
 package iterador;
 
-import interfaces.Agregado;
-import interfaces.Iterator;
+import Interface.Iterador;
 import model.RegistroAsistencia;
 
 public class ColeccionAsistencia implements Agregado {
@@ -10,7 +9,7 @@ public class ColeccionAsistencia implements Agregado {
     private int indice = 0;
 
     public ColeccionAsistencia() {
-        registros = new RegistroAsistencia[100];
+        registros = new RegistroAsistencia[10];
     }
 
     public void agregarRegistro(RegistroAsistencia registro) {
@@ -21,7 +20,7 @@ public class ColeccionAsistencia implements Agregado {
     }
 
     @Override
-    public Iterator createIterator() {
+    public Iterador createIterator() {
         return new ArrayIterator(registros);
     }
 }
