@@ -13,7 +13,7 @@ de ingreso y minutos de retraso — todo esto sin tocar directamente el
 arreglo interno donde se guardan los datos. Eso es exactamente lo que
 propone el patrón.
 
-    
+
 
 
 MARKDAWN
