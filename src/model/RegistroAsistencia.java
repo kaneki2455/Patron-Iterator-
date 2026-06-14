@@ -1,4 +1,5 @@
 package model;
+
 public  class RegistroAsistencia{
     private String dni;
     private String nombre;

@@ -1,9 +1,10 @@
 package iterador;
 
-import interfaces.Iterator;
+import Interface.Iterador;
+import Interface.Iterador;
 import model.RegistroAsistencia;
 
-public class ArrayIterator implements Iterator {
+public class ArrayIterator implements Iterador {
 
     private RegistroAsistencia[] registros;
     private int posicion = 0;
